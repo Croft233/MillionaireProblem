@@ -19,11 +19,9 @@ Problem C, the Millionaire, is one of the rare gems in the programming contests 
 
 ## Problem Statement
 
-Problem
-
 You have been invited to the popular TV show "Would you like to be a millionaire?". Of course you would!
 
-The rules of the show are simple:_
+The rules of the show are simple:
 
 Before the game starts, the host spins a wheel of fortune to determine P, the probability of winning each bet.
 You start out with some money: X dollars.
@@ -34,7 +32,8 @@ Given M, P and X, determine your probability of winning at least $1000000 if you
 
 ---
 
-Input
+__Input__
+
 The first line of input gives the number of cases, N.
 
 Each of the following N lines has the format "M P X", where:
@@ -45,7 +44,8 @@ Each of the following N lines has the format "M P X", where:
 
 ---
 
-Output
+__Output__
+
 For each test case, output one line containing "Case #X: Y", where:
 
 - X is the test case number, beginning at 1.
@@ -54,7 +54,8 @@ Answers with a relative or absolute error of at most 10^-6 will be considered co
 
 ---
 
-Limits
+__Limits__
+
 Time limit: 30 seconds per test set.
 Memory limit: 1GB.
 1 ≤ N ≤ 100
@@ -69,16 +70,22 @@ Large dataset (Test set 2 - Hidden)
 
 ---
 
-Sample
+__Sample__
 
 Sample Input
-_2_
-_1 0.5 500000_
-_3 0.75 600000_
+
+>_2_
+>
+>_1 0.5 500000_
+>
+>_3 0.75 600000_
+
 
 Sample Output
-_Case #1: 0.500000_
-_Case #2: 0.843750_
+
+>_Case #1: 0.500000_
+>
+>_Case #2: 0.843750_
 
 In the first case, the only way to reach $1000000 is to bet everything in the single round.
 
@@ -90,5 +97,10 @@ You have $600000 on the first round. Bet $150000.
 - If you win the first round, you have $750000 left. Bet $250000.
 - If you win the first round and lose the second round, you have $500000 left. Bet $500000.
 
+
+
 <footer>
+
+[Reference](https://zibada.guru/gcj/2008r4a/problems/#C)
+  
 </footer>
